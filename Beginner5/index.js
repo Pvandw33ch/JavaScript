@@ -1,28 +1,3 @@
-/*
-setTimeout(message, 2000, "Ar")
-
-function message(name){
-    alert(`Help ${name} now`)
-}
-*/
-
-/*
-let count   = 0;
-let max     = window.prompt("Choose a number");
-
-max = Number(max);
-
-const myTimer = setInterval(countUp, 1000);
-
-function countUp(){
-    count += 1;
-    console.log(count);
-    if (count >= max){
-        clearInterval(myTimer);
-    }
-}
-*/
-
 const timeLabel         = document.getElementById("timeLabel")
 const dayLabel          = document.getElementById("dayLabel")
 const stopButton        = document.getElementById("stopButton")
@@ -57,18 +32,14 @@ function days(day){
 
 stopButton.onclick = () => {
     if (timeState){
-        //console.log(timeState)
         clearInterval(timeInterval)
-        console.log(timeInterval)
     }
     timeState   = false
 }
 
 startButton.onclick = () => {
     if (!timeState){
-        //console.log(timeState)
         timeInterval = setInterval(update, 1)
-        console.log(timeInterval)
     }
     timeState   = true
 }
