@@ -1,4 +1,4 @@
-const imagePath     = "images"
+const imagePath     = "Beginner6/images"
 const imageArray    = [
     "Anya\ Forger.jpg",
     "Anya\ Forger\ \(1\).jpg",
