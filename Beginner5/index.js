@@ -33,13 +33,13 @@ function days(day){
 stopButton.onclick = () => {
     if (timeState){
         clearInterval(timeInterval)
-    }
-    timeState   = false
+        timeState   = false
+    } 
 }
 
 startButton.onclick = () => {
     if (!timeState){
         timeInterval = setInterval(update, 1)
+        timeState   = true
     }
-    timeState   = true
 }
