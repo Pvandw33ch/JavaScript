@@ -1,6 +1,5 @@
-const imagePath     = "images"
+const imagePath     = "Beginner9/images"
 const imageArray    = [
-    "KrustyKrab3.webp",
     "KrustyKrab1.webp",
     "KrustyKrab2.webp",
     "Ocean.webp",
