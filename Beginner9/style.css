@@ -1,12 +1,12 @@
 @font-face {
-    font-family: spongebob2;
+    font-family: "spongebob2";
     src: url("Beginner9/fonts/spongebob2.ttf") format("truetype");
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: spongebob2, sans-serif;
+    font-family: "spongebob2", sans-serif;
 }
 body{
     display: flex;
