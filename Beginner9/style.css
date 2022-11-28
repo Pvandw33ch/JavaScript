@@ -1,6 +1,6 @@
 @font-face {
     font-family: spongebob2;
-    src: url("fonts/spongebob2.ttf");
+    src: url("Beginner9/fonts/spongebob2.ttf");
 }
 *{
     margin: 0;
@@ -14,7 +14,7 @@ body{
     align-items: center;
     min-height: 100vh;
     background: rgb(231, 234, 236);
-    background-image: url("images/Ocean.webp");
+    background-image: url("Beginner9/images/Ocean.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
