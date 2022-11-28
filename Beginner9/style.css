@@ -215,8 +215,8 @@ body{
 .btns.wallpaper{
     width: 130px;
     height: 50px;
-    bottom: 0px;
-    left: -30px;
+    top: 0px;
+    right: -30px;
     border-radius: 36% 64% 41% 59% / 43% 46% 54% 57%;
     background: rgb(0, 255, 0);
     transform: rotate(30deg);
